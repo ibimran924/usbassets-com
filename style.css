@@ -74,7 +74,7 @@
 .footer-matter-logo {
     width: 50%;
     justify-content: end;
-    display: flex;
+    
 }
 
 .footer-matter-text h1 {
@@ -230,4 +230,40 @@ h1 {}
 }
 .know-more-call {
     margin-bottom: 25px;
+}
+.footer-matter-logo ul li a {
+    font-size: 22px;
+    color: wheat;
+    padding: 5px;
+    display: block;
+}
+
+.footer-matter-logo ul li {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+li {}
+
+.footer-matter-logo ul li last chaild {
+    margin-right: 0;
+}
+
+.footer-matter-logo ul li a:hover {
+    background: green;
+    color: yellow;
+    border-radius: 50%;
+    height: 48px;
+}
+.footer-matter-logo ul {
+    margin: auto;
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
 }
